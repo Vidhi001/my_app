@@ -1,0 +1,9 @@
+.selected { 
+  border: 2px solid #73AD21;
+  width :"100px";
+}
+
+.not_selected { 
+  border: 2px solid #a119ca;
+  width :"100px";
+}

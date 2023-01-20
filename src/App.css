@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin:0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.leftPage > img{
+  padding: 4% 0%;
+  width :78%;
+}
+
+.leftPage{
+  color:"red";
+}
+
+.rightPage {
+  text-align: left;
+  padding: 24px;
+  position: relative;
+}
+
+.btn_style, .btn_style:hover{
+  margin-right: 10px;
+  font-size:100% ;
+  padding: 5px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  /* padding: 12px 24x; */
+  text-align: center;
+  background-color: rgb(214, 213, 213);
+  min-width: 100px;
+  
+}
+
+.btnSelected{
+  background-color: rgb(150, 148, 148);
+}

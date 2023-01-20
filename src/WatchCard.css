@@ -1,0 +1,12 @@
+.selected { 
+  border: 2px solid teal;
+  width :70px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.not_selected { 
+  border: 2px solid transparent;
+  width :70px;
+  border-radius: 8px;
+}
