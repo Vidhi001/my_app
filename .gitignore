@@ -6,7 +6,7 @@
 .pnp.js
 /hooks
 /info
-
+/.idea
 # testing
 /coverage
 
