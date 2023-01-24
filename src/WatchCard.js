@@ -7,6 +7,7 @@ export default function WatchCard(props) {
   // let {watch_img} = props.watch_img;
   // let {prevRef} = props1.prevRef;
   const [style, setStyle] = useState(0);
+  // props.watch_img.img_state = true;
 
   const [id, setId] = useState(0);
   // props.watch_img.img_state = true;
@@ -35,22 +36,20 @@ export default function WatchCard(props) {
 
   // }
 
-  const imageClick = ({prevRef,watch_img}) => {
+  const imageClick = () => {
     // setStyle("not_selected");
     setId(props.watch_img.id);
     // console.log(prevRef.current);
     // watch_img.img_state = true;
     setStyle("selected");
-    props.watch_img.img_state = false;
+    props.watch_img.img_state = true;
     // prevRef = watch_img.id;
   }   
   
-  // console.log(props.watch_img);
+  console.log(props.watch_img);
   
   return (
-    <img src={props.watch_img.imageUrl} alt = {props.watch_img.styleName}className={style} onClick={
-      () => {imageClick(props.prevRef,props.watch_img)}
-    }/>
+    <img src={props.watch_img.imageUrl} alt = {props.watch_img.styleName}className={style} onClick={imageClick}/>
   );
 
 }

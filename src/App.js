@@ -49,8 +49,10 @@ function App() {
       </div>
       <div className="row main_container">
         <div className = "col-6 leftPage">
-          <p>{timeVariable}</p>
           <img src={ProductData.colorOptions[0].imageUrl} alt ={ProductData.colorOptions[0].styleName}/>
+        </div>
+        <div className= "featureData" >
+        <p>{timeVariable}</p>
         </div>
         <div className = "col-6 rightPage">
           <h2>{ProductData.title}</h2>

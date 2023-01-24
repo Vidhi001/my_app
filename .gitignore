@@ -6,6 +6,7 @@
 .pnp.js
 /hooks
 /info
+/objects
 
 # testing
 /coverage

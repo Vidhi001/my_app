@@ -12,17 +12,33 @@
 
 .leftPage > img{
   padding: 4% 0%;
-  width :78%;
+  width :80%;
+  position: relative;
 }
 
-.leftPage{
-  color:"red";
+
+.featureData{
+  color:red;
+  /* position: absolute; */
+  /* top: 35%;
+  left: 25%;
+  transform: translate(-70%, -80%); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding:50%; */
+  /* width :78%; */
+
+  /* top: 28%;
+  left: 24%;
+  transform: translate(-50%, -50%); */
 }
 
 .rightPage {
   text-align: left;
   padding: 24px;
-  position: relative;
+  /* position: absolute; */
 }
 
 .btn_style, .btn_style:hover{
